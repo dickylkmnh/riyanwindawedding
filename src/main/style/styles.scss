@@ -1,0 +1,54 @@
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZsb3dlciUyMHdlZGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    .sub-hero {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        .upper {
+            margin-bottom: 2em;
+            .sub-title {
+                font-family: "Montez", cursive;
+                font-size: 1.8em;
+                color: white;
+                margin-bottom: 0.3em;
+            }
+            .bride {
+                font-family: "Montez", cursive;
+                font-weight: bold;
+                font-size: 3.3em;
+                color: white;
+                margin-bottom: 0.3em;
+            }
+            .text {
+                margin-bottom: 0.3em;
+                color: white;
+            }
+            .date {
+                font-size: 1.2em;
+                color: rgb(245, 157, 101);
+                font-weight: bolder;
+            }
+        }
+        .middle {
+            color: white;
+            .mb-1 {
+                margin-bottom: 0.7em;
+            }
+            .text {
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+        }
+    }
+}
