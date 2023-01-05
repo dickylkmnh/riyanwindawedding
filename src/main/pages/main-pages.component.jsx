@@ -1,7 +1,17 @@
-import AOS from 'aos';
 import React, { useEffect } from 'react';
+
+import AOS from 'aos';
 import { useParams } from 'react-router-dom';
 import Slider from "react-slick";
+
+import main1 from '../img/main1.jpg';
+import main2 from '../img/main2.jpg';
+
+import photo1 from '../img/1.jpg';
+import photo2 from '../img/2.JPG';
+import photo3 from '../img/3.JPG';
+import photo4 from '../img/3.JPG';
+import photo5 from '../img/5.JPG';
 
 import '../style/styles.scss';
 
@@ -64,7 +74,7 @@ export const MainPagesComponent = () => {
                         </div>
                         <div className="middle">
                             <img
-                                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                src={main1}
                                 alt="men"
                                 className="image-bride"
                             />
@@ -74,8 +84,8 @@ export const MainPagesComponent = () => {
                                 className="image-flower"
                             />
                             <img
-                                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                                alt="men"
+                                src={main2}
+                                alt="girl"
                                 className="image-bride"
                             />
                         </div>
@@ -209,6 +219,61 @@ export const MainPagesComponent = () => {
                                         </div>
                                     </div>
                                 </Slider>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="galery">
+                <div className="galery">
+                    <div className="sub-galery">
+                        <div className="upper" data-aos="zoom-in" data-aos-duration="1000">
+                            <div className="title2">Galeri Photo</div>
+                            <div className="title1">Photo-photo kebahagian kami yang kami kenang selalu.</div>
+                        </div>
+                        <div className="middle">
+                            <div className="row row-cols-lg-5 pl-5 pr-5">
+                                <div className="col-6 col-lg-3 pb-3">
+                                    <img
+                                        src={photo1}
+                                        alt="photo1"
+                                        width="100"
+                                        className='img-fluid w-100 h-100'
+                                    />
+                                </div>
+                                <div className="col-6 col-lg-3 pb-3">
+                                    <img
+                                        src={photo2}
+                                        alt="photo1"
+                                        width="100"
+                                        className='img-fluid w-100'
+                                    />
+                                </div>
+                                <div className="col-6 col-lg-3 pb-3">
+                                    <img
+                                        src={photo3}
+                                        alt="photo1"
+                                        width="100"
+                                        className='img-fluid w-100'
+                                    />
+                                </div>
+                                <div className="col-6 col-lg-3 pb-3">
+                                    <img
+                                        src={photo4}
+                                        alt="photo1"
+                                        width="100"
+                                        className='img-fluid w-100'
+                                    />
+                                </div>
+                                <div className="col-12 d-lg-none">
+                                    <img
+                                        src={photo5}
+                                        alt="photo1"
+                                        width="100"
+                                        className='img-fluid w-100'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
