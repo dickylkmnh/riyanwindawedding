@@ -10,7 +10,7 @@ import main2 from '../img/main2.jpg';
 import photo1 from '../img/1.jpg';
 import photo2 from '../img/2.JPG';
 import photo3 from '../img/3.JPG';
-import photo4 from '../img/3.JPG';
+import photo4 from '../img/4.JPG';
 import photo5 from '../img/5.JPG';
 
 import '../style/styles.scss';
