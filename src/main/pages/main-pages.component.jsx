@@ -39,7 +39,7 @@ export const MainPagesComponent = () => {
                             <div className="sub-title">The Wedding</div>
                             <div className="bride">Winda & Rian</div>
                             <div className="text">Akan segera melangsungkan pernikahan suci</div>
-                            <div className="date">Kamis, 02 Februari 2023</div>
+                            <div className="date">Sabtu, 25 Februari 2023</div>
                         </div>
                         <div className="row mb-5">
                             <div className="col-12">
@@ -103,10 +103,10 @@ export const MainPagesComponent = () => {
                         <div className="middle">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-12">
+                                    <div className="col-12 col-lg-6">
                                         <div className="event-card" data-aos="fade-left" data-aos-duration="1000">
                                             <div className="event-card-title">
-                                                Main Ceremony
+                                                Akad
                                             </div>
                                             <div className="event-card-main">
                                                 <div className="row">
@@ -118,7 +118,8 @@ export const MainPagesComponent = () => {
                                                                 className="image-icon"
                                                             />
                                                         </div>
-                                                        <div className="text">09.00 WIB</div>
+                                                        <div className="text">08.00 WIB</div>
+                                                        <div className="text">Selesai</div>
                                                     </div>
                                                     <div className="col-6">
                                                         <div>
@@ -128,6 +129,40 @@ export const MainPagesComponent = () => {
                                                                 className="image-icon"
                                                             />
                                                         </div>
+                                                        <div className="text">Jumat</div>
+                                                        <div className="text">24 Februari 2023</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-lg-6">
+                                        <div className="event-card" data-aos="fade-right" data-aos-duration="1000">
+                                            <div className="event-card-title">
+                                                Resepsi
+                                            </div>
+                                            <div className="event-card-main">
+                                                <div className="row">
+                                                    <div className="col-6">
+                                                        <div>
+                                                            <img
+                                                                src="https://cdn-icons-png.flaticon.com/512/709/709511.png"
+                                                                alt="clock"
+                                                                className="image-icon"
+                                                            />
+                                                        </div>
+                                                        <div className="text">08.00 WIB</div>
+                                                        <div className="text">Selesai</div>
+                                                    </div>
+                                                    <div className="col-6">
+                                                        <div>
+                                                            <img
+                                                                src="https://cdn-icons-png.flaticon.com/512/3239/3239948.png"
+                                                                alt="calendar"
+                                                                className="image-icon"
+                                                            />
+                                                        </div>
+                                                        <div className="text">Sabtu</div>
                                                         <div className="text">25 Februari 2023</div>
                                                     </div>
                                                 </div>
@@ -135,7 +170,7 @@ export const MainPagesComponent = () => {
                                         </div>
                                     </div>
                                     <div className="col-12">
-                                        <div className="event-card" data-aos="fade-right" data-aos-duration="1000">
+                                        <div className="event-card" data-aos="fade-left" data-aos-duration="1000">
                                             <div className="event-card-title">
                                                 Location
                                             </div>
@@ -148,10 +183,10 @@ export const MainPagesComponent = () => {
                                                     </div>
                                                     <div className="col-12">
                                                         <iframe
-                                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.54902544301405!2d107.56700629793328!3d-6.916359724692738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e54ddd0c7a03%3A0xf489299dc09f6df6!2sDody%20Toys!5e0!3m2!1sen!2sid!4v1672218655447!5m2!1sen!2sid"
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.784756970567!2d107.56709199999999!3d-6.9163179999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88b7465b1003d07e!2zNsKwNTQnNTguNyJTIDEwN8KwMzQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1672911772412!5m2!1sen!2sid"
                                                             height="300"
                                                             allowfullscreen=""
-                                                            oading="lazy"
+                                                            loading="lazy"
                                                             referrerpolicy="no-referrer-when-downgrade"
                                                         >
                                                         </iframe>
@@ -187,38 +222,42 @@ export const MainPagesComponent = () => {
                         </div>
                         <div className="middle">
                             <div className="pl-5 pr-5">
-                                <Slider {...settings}>
-                                    <div className="cards">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <div className="hero-image">
-                                                    <img
-                                                        src="https://cdn-icons-png.flaticon.com/512/709/709511.png"
-                                                        alt="clock"
-                                                        className="image-icon"
-                                                    />
+                                <div className="row text-center justify-content-center">
+                                    <div className="col-12 col-lg-6">
+                                        <Slider {...settings}>
+                                            <div className="cards">
+                                                <div className="row">
+                                                    <div className="col-12">
+                                                        <div className="hero-image">
+                                                            <img
+                                                                src="https://cdn-icons-png.flaticon.com/512/709/709511.png"
+                                                                alt="clock"
+                                                                className="image-icon"
+                                                            />
+                                                        </div>
+                                                        <div className="mb-2 mt-2">#1</div>
+                                                        <div className="text">Mohon dapat hadir sesuai dengan waktu yang telah ditentukan.</div>
+                                                    </div>
                                                 </div>
-                                                <div className="mb-2 mt-2">#1</div>
-                                                <div className="text">Mohon dapat hadir sesuai dengan waktu yang telah ditentukan.</div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="cards">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <div className="hero-image">
-                                                    <img
-                                                        src="https://cdn-icons-png.flaticon.com/512/3011/3011229.png"
-                                                        alt="mask"
-                                                        className="image-icon"
-                                                    />
+                                            <div className="cards">
+                                                <div className="row">
+                                                    <div className="col-12">
+                                                        <div className="hero-image">
+                                                            <img
+                                                                src="https://cdn-icons-png.flaticon.com/512/3011/3011229.png"
+                                                                alt="mask"
+                                                                className="image-icon"
+                                                            />
+                                                        </div>
+                                                        <div className="mb-2 mt-2">#2</div>
+                                                        <div className="text"> Wajib menggunakan masker dan menaati protokol kesehatan lainnya yang berlaku selama acara. </div>
+                                                    </div>
                                                 </div>
-                                                <div className="mb-2 mt-2">#2</div>
-                                                <div className="text"> Wajib menggunakan masker dan menaati protokol kesehatan lainnya yang berlaku selama acara. </div>
                                             </div>
-                                        </div>
+                                        </Slider>
                                     </div>
-                                </Slider>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,7 +273,7 @@ export const MainPagesComponent = () => {
                         </div>
                         <div className="middle">
                             <div className="row row-cols-lg-5 pl-5 pr-5">
-                                <div className="col-6 col-lg-3 pb-3">
+                                <div className="col-6 col-lg-3 pb-3" data-aos="fade-right" data-aos-duration="2000">
                                     <img
                                         src={photo1}
                                         alt="photo1"
@@ -242,7 +281,7 @@ export const MainPagesComponent = () => {
                                         className='img-fluid w-100 h-100'
                                     />
                                 </div>
-                                <div className="col-6 col-lg-3 pb-3">
+                                <div className="col-6 col-lg-3 pb-3" data-aos="fade-left" data-aos-duration="2000">
                                     <img
                                         src={photo2}
                                         alt="photo1"
@@ -250,7 +289,7 @@ export const MainPagesComponent = () => {
                                         className='img-fluid w-100'
                                     />
                                 </div>
-                                <div className="col-6 col-lg-3 pb-3">
+                                <div className="col-6 col-lg-3 pb-3" data-aos="fade-right" data-aos-duration="2000">
                                     <img
                                         src={photo3}
                                         alt="photo1"
@@ -258,7 +297,7 @@ export const MainPagesComponent = () => {
                                         className='img-fluid w-100'
                                     />
                                 </div>
-                                <div className="col-6 col-lg-3 pb-3">
+                                <div className="col-6 col-lg-3 pb-3" data-aos="fade-left" data-aos-duration="2000">
                                     <img
                                         src={photo4}
                                         alt="photo1"
@@ -266,7 +305,7 @@ export const MainPagesComponent = () => {
                                         className='img-fluid w-100'
                                     />
                                 </div>
-                                <div className="col-12 d-lg-none">
+                                <div className="col-12 d-lg-none d-md-none" data-aos="zoom-in" data-aos-duration="2000">
                                     <img
                                         src={photo5}
                                         alt="photo1"

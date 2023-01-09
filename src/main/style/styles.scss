@@ -3,7 +3,7 @@
     background-color: #ede0d4;
     #hero {
         .hero {
-            background-image: url("../img/4.JPG");
+            background-image: url("../img/3.JPG");
             position: relative;
             background-attachment: fixed;
             background-position: center;
@@ -201,6 +201,13 @@
                                     background-color: #ded4cb;
                                 }
                             }
+                            .text-title {
+                                color: #ede0d4;
+                                font-size: 20px;
+                                margin-bottom: 2rem;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                            }
                         }
                     }
                 }
@@ -305,6 +312,84 @@
                         font-size: 15px;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #app {
+        #hero {
+            .hero {
+                height: 200vh;
+            }
+        }
+        #invitation {
+            .invitation {
+                height: 200vh;
+            }
+        }
+        #footer {
+            .footer {
+                height: 40vh;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #app {
+        #hero {
+            .hero {
+                height: 100vh;
+            }
+        }
+        #invitation {
+            .invitation {
+                height: 100vh;
+            }
+        }
+        #footer {
+            .footer {
+                height: 20vh;
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+    #app {
+        #hero {
+            .hero {
+                height: 100vh;
+            }
+        }
+        #invitation {
+            .invitation {
+                height: 100vh;
+            }
+        }
+        #footer {
+            .footer {
+                height: 20vh;
+            }
+        }
+    }
+}
+@media (min-width: 1400px) {
+    #app {
+        #hero {
+            .hero {
+                height: 100vh;
+            }
+        }
+        #invitation {
+            .invitation {
+                height: 100vh;
+            }
+        }
+        #footer {
+            .footer {
+                height: 20vh;
             }
         }
     }
