@@ -4,8 +4,8 @@ import AOS from 'aos';
 import { useParams } from 'react-router-dom';
 import Slider from "react-slick";
 
-import main1 from '../img/main1.jpg';
-import main2 from '../img/main2.jpg';
+import main1 from '../img/windamain.jpg';
+import main2 from '../img/rianmain.jpg';
 
 import photo1 from '../img/1.jpg';
 import photo2 from '../img/2.JPG';
