@@ -151,7 +151,7 @@ export const MainPagesComponent = () => {
                                                                 className="image-icon"
                                                             />
                                                         </div>
-                                                        <div className="text">08.00 WIB</div>
+                                                        <div className="text">11.00 WIB</div>
                                                         <div className="text">Selesai</div>
                                                     </div>
                                                     <div className="col-6">
