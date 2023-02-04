@@ -178,12 +178,12 @@ export const MainPagesComponent = () => {
                                                 <div className="row">
                                                     <div className="col-12">
                                                         <div className="text2">
-                                                            Cijerah GG. Manunggal II C Rt.01 Rw.09, Kec. Bandung Kulon, Kota Bandung.
+                                                            Cijerah GG. Manunggal II C Rt.02 Rw.09, Kec. Bandung Kulon, Kota Bandung.
                                                         </div>
                                                     </div>
                                                     <div className="col-12">
                                                         <iframe
-                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.784756970567!2d107.56709199999999!3d-6.9163179999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88b7465b1003d07e!2zNsKwNTQnNTguNyJTIDEwN8KwMzQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1672911772412!5m2!1sen!2sid"
+                                                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3960.7778888633843!2d107.567084!3d-6.917136999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTUnMDEuNyJTIDEwN8KwMzQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1675438897042!5m2!1sen!2sid"
                                                             height="300"
                                                             allowfullscreen=""
                                                             loading="lazy"
