@@ -44,7 +44,7 @@ export const MainPagesComponent = () => {
                         <div className="row mb-5">
                             <div className="col-12">
                                 <a
-                                    className="btn btn-danger"
+                                    className="btn btn-secondary btn-wedding"
                                     href="#invitation"
                                 >
                                     Buka Undangan
